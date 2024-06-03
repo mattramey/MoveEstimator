@@ -1,13 +1,11 @@
-/// malcome movers chjarges base rate of 200 this will be a const
-// the houlry rate is 150$ and there is a charge of 2 $ per mile
-// const 200, 150 * amount of hours , 2$ * miles
+
 
 
 
 using System;
 
 class MoveEstimator{//open move estimator
-
+// declare constants for baseRate, hourlyRate, and mileRate
     public const double BaseRate = 200.00;
 
     public const double HourlyRate = 150.00;
@@ -16,6 +14,7 @@ class MoveEstimator{//open move estimator
 
     public static void Main(string[] args){// open Main
 
+// loop through program 4 times 
         for (int i = 1; i <= 4; i++){//open for loop
 
             // prompt user for the number of hours the move is expected to take place. create a variable estimatedHours to store the user input.
